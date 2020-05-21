@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTW</title>
+  <link rel="stylesheet" href="./css/basketball.css">
+</head>
+
+<body>
+
+  <nav>
+    <h1>打篮球分配系统</h1>
+    <ul>
+      <li id="sort">输入分组信息</li>
+      <li id="help">帮助</li>
+      <li id="about">关于作者</li>
+    </ul>
+  </nav>
+  <main>
+
+    <div class="box">
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/nz.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：射手</div>
+            <div>昵称：牛仔</div>
+            <div>身高：172cm</div>
+            <div>体重：56kg</div>
+          </section>
+
+        </div>
+      </div>
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/bb.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：全能</div>
+            <div>昵称：兵哥</div>
+            <div>身高：175cm</div>
+            <div>体重：67kg</div>
+          </section>
+
+        </div>
+      </div>
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/hx.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：射手</div>
+            <div>昵称：花心</div>
+            <div>身高：175cm</div>
+            <div>体重：64kg</div>
+          </section>
+
+        </div>
+      </div>
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/bl.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：全能</div>
+            <div>昵称：笔立</div>
+            <div>身高：169cm</div>
+            <div>体重：68kg</div>
+          </section>
+
+        </div>
+      </div>
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/jb.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：全能</div>
+            <div>昵称：佳冰</div>
+            <div>身高：181cm</div>
+            <div>体重：67kg</div>
+          </section>
+
+        </div>
+      </div>
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/yf.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：篮板</div>
+            <div>昵称：引发</div>
+            <div>身高：160cm</div>
+            <div>体重：52kg</div>
+          </section>
+
+        </div>
+      </div>
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/dx.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：射手</div>
+            <div>昵称：东晓</div>
+            <div>身高：168cm</div>
+            <div>体重：55kg</div>
+          </section>
+
+        </div>
+      </div>
+      <div class="card">
+        <button>删除</button>
+        <h3>位置卡片</h3>
+        <div class="person">
+          <section class="avatar">
+            <img src="./images/yp.jpg" alt="">
+          </section>
+          <section class="text">
+            <div>位置：全能</div>
+            <div>昵称：玉鹏</div>
+            <div>身高：172cm</div>
+            <div>体重：66kg</div>
+          </section>
+
+        </div>
+      </div> 
+    </div>
+    <div class="list">
+    </div>
+    <div class="help">
+      <div class="close">×</div>
+      <div>
+        说明：<br />
+        1.本系统使用的前提是有一群随叫随到的好朋友可以一起打篮球。<br />
+        2.本系统的最终开发目的是为了提高效率以及大家的篮球体验，不会造成野球场上强强联手的场景。<br />
+        3.此项目仅供娱乐使用。
+      </div>
+      <div>
+        使用帮助：<br />
+        1.收集你的篮球朋友数据，将他们的数据复制在basketball.html的 card上。<br />
+        2.录完数据后，看看谁鸽子的，在页面上把他删除掉，这样不会计入本次分组。<br />
+        2.点击分组信息，输入几人一组，点击随机分配，即可使用。<br />
+      </div>
+    </div>
+    <div class="sort">
+      <ul>
+        <li id="people"></li>
+        <li>输入几人一组：<input type="text" id="num" style="width: 30px;"></li>
+        <li id="btn1">随机分配</li>
+        <li id="btn2">按位置进行分配</li>
+        <li id="btn3">按身高进行分配</li>
+        <li id="btn4">按吨位进行分配</li>
+      </ul>
+    </div>
+  </main>
+
+
+  <script src="./js/basketball.js"></script>
+</body>
+
+</html>
