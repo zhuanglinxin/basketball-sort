@@ -1,11 +1,12 @@
-window.onload = function () {
-  console.log("test")
-  // 移动端跳转
-  let is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
-  if (is_mobi) {
-    window.location.href = "https://zhuanglinxin.github.io/vue-basketball-sort/dist";
-  }
+// 移动端跳转
+let is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
+if (is_mobi) {
+  window.location.href = "https://zhuanglinxin.github.io/vue-basketball-sort/dist";
+}
 
+window.onload = function () {
+  console.log("test1")
+  
   let help = document.querySelector("#help")
   let close = document.querySelector(".close")
   let sortNav = document.querySelector("#sort")
